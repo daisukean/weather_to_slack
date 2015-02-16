@@ -26,7 +26,7 @@ class JP_City{
     }
 
 
-    // get city list array at id or name
+    // city list data type id or name
     function get_list($type){
 
         $res    = $this->get_area_xml();
